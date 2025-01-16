@@ -1,0 +1,51 @@
+:root {
+  --circle-color: rgba(51, 51, 51, 0.1);
+}
+
+[data-theme="dark"] {
+  --circle-color: rgba(241, 241, 241, 0.1);
+}
+#background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.background-circle {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid var(--circle-color);
+  pointer-events: none;
+}
+
+#circle1 {
+  width: 100px;
+  height: 100px;
+}
+#circle2 {
+  width: 120px;
+  height: 120px;
+}
+#circle3 {
+  width: 140px;
+  height: 140px;
+}
+#circle4 {
+  width: 160px;
+  height: 160px;
+}
+#circle5 {
+  width: 180px;
+  height: 180px;
+}
+#circle6 {
+  width: 200px;
+  height: 200px;
+}
